@@ -2,26 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+.heading{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 35px;
+  font-family: cursive;
+  font-weight: 600;
+  margin-top: 150px;
+}
+.pera .pera1{
+  width: 40%;
+  float: left;
+  margin-top: 5px;
+  margin-left: 9%;
+  text-align: justify;
+
+}
+.pera .pera2{
+  width: 40%;
+  float: left;
+  margin-top: 5px;
+  margin-left: 1%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.typeOf{
+  text-align: center;
+  font-family: math;
+  font-weight: 300;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  font-size: 18px;
+  text-shadow: 2px 2px lightblue;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.list{
+  text-align: center;
+  font-family: math;
+  font-weight: 300;
+  list-style-type: circle;
 }
+
+ul .item{
+  list-style-type: square !important;
+  list-style-type: circle;
+}
+.defined{
+  margin-right:10px;
+  margin-left: 10px;;
+  text-align: justify;
+}
+
+.imgs{
+  height: 200px;
+  width: 210px;
+  float: left;
+  margin: 2px;
+}
+
+
+

@@ -1,0 +1,12 @@
+.footerbox{
+    background-color: #198754;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    justify-content:center;
+    text-align: center;
+}
+
+.footerbox h6{
+    margin: 20px
+}

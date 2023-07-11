@@ -29,7 +29,7 @@ export default function gallery() {
       <div className='heading'>Gallery</div>
       <div>
         {images.map((item, index) => (
-          <img src={item} className='imgs' layout={'raw'} key={index} />
+          <image src={item} className='imgs' layout={'raw'} key={index} />
         ))}
       </div>
       <FooterComponent />

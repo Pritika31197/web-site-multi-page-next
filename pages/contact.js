@@ -8,10 +8,10 @@ export default function contact() {
     <div>
       <HeaderComponent />
       <div className='heading'>History Of Agriculture</div>
-      <div className='defined'>Agriculture, also known as farming, is the production of food, fiber, animal feed and other goods by harvesting plants and animals. Agriculture is now practiced throughout the world and is an essential part of human civilization and its history dates back thousands of years. Here's a timeline of the history of agriculture:</div>
+      <div className='defined'>Agriculture, also known as farming, is the production of food, fiber, animal feed and other goods by harvesting plants and animals. Agriculture is now practiced throughout the world and is an essential part of human civilization and its history dates back thousands of years. Heres a timeline of the history of agriculture:</div>
   
       <div className='typeOf'>Irrigation and Canal Networks (4000-3000 BCE)</div>
-      <div className='defined'>Irrigation systems were developed in Egypt and Mesopotamia to help regulate the flow of rivers and ensure the availability of water for crops. One of the most impressive irrigation systems developed during this time was the qanat, an underground canal used to tap into underground streams.</div>
+      <div className='defined'>Irrigation systems were developed in Egypt and Mesopotamia to help regulate the flow of rivers and ensure the availability of water for crops. One of the most impressive irrigation systems developed during this time was the quant, an underground canal used to tap into underground streams.</div>
 
       <div className='typeOf'>Improvements in Farming Implements (3000-1000 BCE)</div>
       <div className='defined'>During the Bronze Age, advanced metalworking techniques led to the development of stronger farming implements. This allowed for more efficient tilling of the soil and increased agricultural productivity. The moldboard plow and crop rotation were also introduced during this time.</div>
